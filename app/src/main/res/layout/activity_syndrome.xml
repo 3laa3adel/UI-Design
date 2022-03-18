@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="#0A2932"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+    <RelativeLayout
+        android:layout_height="match_parent"
+        android:layout_width="wrap_content"
+        android:background="#0A2932"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        >
+        <TextView
+            android:id="@+id/t1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="25dp"
+            android:text="Symptoms :"
+            android:textColor="#FFFFFF"
+            android:textSize="60px"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/t2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/paragraphs"
+            android:layout_below="@id/t1"
+            android:textColor="#FFFFFF"
+            android:textSize="60px"
+            />
+        <TextView
+            android:id="@+id/t3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="40dp"
+            android:text="@string/paragraphs2"
+            android:layout_below="@id/t2"
+            android:textColor="#FFFFFF"
+            android:textSize="60px"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1 - Fever.
+                                                2- A dry cough.
+                                  3- Fatigue."
+            android:layout_below="@id/t3"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="15dp"
+            android:textColor="#FFFFFF"
+            android:textSize="60px"
+            />
+        <TextView
+            android:id="@+id/t4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="150dp"
+            android:text="@string/paragraphs3"
+            android:layout_below="@id/t3"
+            android:textColor="#FFFFFF"
+            android:textSize="60px"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1- Pains and aches.
+                                                     2- Sore throat.
+                                                3- Diarrhea.
+                                          4- Conjunctivitis.
+
+                                        5- Headache.
+                                        6- Loss of the sense of taste or smell.
+
+                                                7- A rash or change in the color of the fingers or toes."
+            android:layout_below="@id/t4"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="20dp"
+            android:textColor="#FFFFFF"
+            android:textSize="60px"
+            />
+    </RelativeLayout>
+</ScrollView>

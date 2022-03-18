@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:background="#0A2932"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        >
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="250sp"
+        android:src="@drawable/img"
+        android:layout_marginTop="-60dp"
+        />
+
+    <TextView
+        android:id="@+id/tt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="115dp"
+        android:layout_centerHorizontal="true"
+        android:text="WHO "
+        android:textColor="#2196F3"
+        android:textSize="60px"
+        android:fontFamily="cursive"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="230sp"
+        android:layout_centerHorizontal="true"
+        android:text="Rate Us "
+        android:textColor="#878383"
+        android:textSize="80px"
+        android:fontFamily="serif"
+        android:textStyle="italic"
+        />
+    <RatingBar
+        android:id="@+id/r"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        android:rating="0"
+        android:progressBackgroundTint="#5A6165"
+        android:progressTint="#FFEB3B"
+        android:stepSize="0.5"
+        android:isIndicator="false"
+        android:layout_marginTop="290sp"
+        android:layout_marginLeft="80sp"
+        />
+    <Button
+        android:id="@+id/subb"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="450sp"
+        android:layout_marginLeft="120sp"
+        android:text="Submit"
+        android:textSize="30dp"
+        android:background="#505756"
+        android:fontFamily="cursive"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+    />
+
+    </RelativeLayout>

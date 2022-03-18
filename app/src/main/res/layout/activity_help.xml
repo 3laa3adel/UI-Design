@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+android:layout_height="match_parent"
+android:layout_width="match_parent"
+android:background="#0A2932"
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+    >
+<RelativeLayout
+    android:layout_height="match_parent"
+    android:layout_width="wrap_content"
+    android:background="#0A2932"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@drawable/who"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="- This application helps everyone to know and understand everything related to Coronavirus."
+        android:textSize="20dp"
+        android:textColor="#fff"
+        android:layout_marginTop="130dp"
+        android:layout_marginLeft="10dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="- For more questions, go to this sites :  "
+        android:textSize="20dp"
+        android:textColor="#fff"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="10dp"
+        />
+    <TextView
+        android:id="@+id/site1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1-  https://www.who.int/
+                      "
+        android:textSize="20dp"
+        android:textColorLink="@color/black"
+        android:textColor="#fff"
+        android:layout_marginTop="280dp"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/site2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2-  https://www.instagram.com/who/
+                      "
+        android:textSize="20dp"
+        android:textColorLink="@color/black"
+        android:textColor="#fff"
+        android:layout_marginTop="315dp"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/site3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3-  https://www.facebook.com/WHO
+                      "
+        android:textSize="20dp"
+        android:textColorLink="@color/black"
+        android:textColor="#fff"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/help"
+        android:layout_marginTop="500dp"
+        />
+</RelativeLayout>
+</ScrollView>

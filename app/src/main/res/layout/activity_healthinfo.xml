@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="#0A2932"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+<RelativeLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="#0A2932"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/t"
+        android:text="Protecting Yourself And Your Loved Ones From #Coronavirus Is Simple :"
+        android:textColor="#fff"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="15dp"
+        />
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/t"
+        android:text="1- Clean your hands often.
+                                2- Avoid touching your eyes, nose and mouth.
+                                     3- Cough or sneeze in your bent elbow-not on your hands!
+                                 4- Limit social gatherings and time spent in crowded places.
+                       5-Avoid close contact with anyone who is sick.
+                                               6-Clean and disinfect frequently touched objects and surfaces."
+        android:textColor="#fff"
+        android:fontFamily="serif"
+        android:textSize="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="155dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/t2"
+        android:text="Make Staying
+                                        Safe a Habit"
+        android:textColor="#9AD4DC"
+        android:fontFamily="casual"
+
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        />
+    <ImageView
+        android:layout_width="180dp"
+        android:layout_height="350dp"
+        android:layout_marginTop="125dp"
+        android:layout_marginLeft="-20dp"
+        android:src="@drawable/info"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="-20dp"
+        android:src="@drawable/who"
+        />
+</RelativeLayout>
+</ScrollView>

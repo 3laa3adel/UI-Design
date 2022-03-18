@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">WHO</string>
+    <string name="paragraph">Coronavirus disease (Covid-19) is an infectious disease caused by the recently discovered Coronavirus.
+Most people who develop COVID-19 have only mild or moderate symptoms and recover without special treatment.
+</string>
+    <string name="paragraph2"><b>How does the disease spread?</b>
+The virus that causes Covid-19 disease is transmitted mainly through droplets that an infected person excretes when they cough, sneeze or breathe. The weight of these droplets is too heavy to remain suspended in the air, as they quickly fall to the ground or surfaces.
+You can become infected through breathing if you are very close to a person with Covid-19 disease or touch a contaminated surface and then touch your eyes, nose or mouth.</string>
+    <string name="paragraphs">COVID-19 affects different people in different ways. Most people who develop it experience mild to moderate symptoms and recover without hospitalization.
+        </string>
+    <string name="paragraphs2"><b>The most common symptoms:</b>
+</string>
+    <string name="paragraphs3"><b>Less common symptoms:</b>
+</string>
+</resources>
